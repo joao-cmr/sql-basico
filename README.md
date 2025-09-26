@@ -16,7 +16,7 @@ O objetivo é servir como material de referência e aprendizado em **banco de da
 - Servir como portfólio de consultas e projetos.  
 - Ajudar em revisões rápidas sobre conceitos de banco de dados.  
 
-## 🛠 Tecnologias  
+##  Tecnologias  
 - **SQL** (SQL Server)  
  
 
