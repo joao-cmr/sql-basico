@@ -1,0 +1,36 @@
+USE PEDIDOS
+--CLAUSULA WHERE
+/*
+OPERADORES RELACIONAIS
+= IGUAL
+<> OU != DIFERENTE
+> MAIOR QUE
+< MENOR QUE
+>= MAIOR QUE OU IGUAL
+>= MENIR QUE OU IGUAL
+*/
+
+
+SELECT COD_CARGO
+	  ,NOME
+	  ,SALARIO
+FROM TB_EMPREGADO
+WHERE SALARIO=500
+
+------------------------------------------------------------------------
+
+SELECT COD_CARGO
+	  ,NOME
+	  ,SALARIO
+FROM TB_EMPREGADO
+WHERE SALARIO<>500.00
+ORDER BY SALARIO
+
+------------------------------------------------------------------------
+
+SELECT COD_CARGO
+	  ,NOME
+	  ,SALARIO
+FROM TB_EMPREGADO
+WHERE SALARIO>=1200
+ORDER BY SALARIO DESC
