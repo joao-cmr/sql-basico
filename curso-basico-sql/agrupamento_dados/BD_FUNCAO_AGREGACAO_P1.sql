@@ -1,6 +1,6 @@
 USE PEDIDOS
 
---FUNÇÃO DE AGREGAÇÃO
+--FUNÃ‡ÃƒO DE AGREGAÃ‡ÃƒO
 /*
 SUM --> SOMA
 AVG --> MEDIA
