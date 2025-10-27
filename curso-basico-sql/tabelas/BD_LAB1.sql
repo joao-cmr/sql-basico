@@ -52,7 +52,7 @@ ALTER TABLE TB_ALUNO
 ADD
 CONSTRAINT CK_ALUNO_STATUS CHECK(STATUS_ALUNO IN ('A','I'))
 
-/*Criar a tabela TB_ALUNO_DISCIPLINA que conter· as disciplinas que o aluno cursa*/
+/*Criar a tabela TB_ALUNO_DISCIPLINA que conter√° as disciplinas que o aluno cursa*/
 
 CREATE TABLE TB_ALUNO_DISCIPLINA
 (COD_ALUNO_DISCIP INT NOT NULL
@@ -60,8 +60,8 @@ CREATE TABLE TB_ALUNO_DISCIPLINA
 ,COD_DISCIPLINA INT
 )
 /*Na tabela TB_ALUNO_DISCIPLINA, adicionar:
-ï Chave prim·ria para a coluna COD_ALUNO_DISCIP
-ï Chave estrangeira para as colunas COD_ALUNO e COD_DISCIPLINA
+‚Ä¢ Chave prim√°ria para a coluna COD_ALUNO_DISCIP
+‚Ä¢ Chave estrangeira para as colunas COD_ALUNO e COD_DISCIPLINA
 */
 
 ALTER TABLE TB_ALUNO_DISCIPLINA
